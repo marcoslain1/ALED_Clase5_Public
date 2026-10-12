@@ -1,7 +1,6 @@
 package ordenacion;
 
 import java.util.Arrays;
-import java.util.Iterator;
 
 public class BubbleSort {
 	
@@ -28,8 +27,8 @@ public class BubbleSort {
 	}
 	
 	public static void main(String[] args) {
-		System.out.println(Arrays.toString(ordenar(new int[] {6, 2, 4, 9, -10})));
-		System.out.println(Arrays.toString(ordenar(new int[] {2, 1, 3, 4, 5})));
+		System.out.println(Arrays.toString(ordenar(new int[] {1, 2, 4, 9, 10})));
+		//System.out.println(Arrays.toString(ordenar(new int[] {2, 1, 3, 4, 5})));
 	}
 
 }
